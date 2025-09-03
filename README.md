@@ -1,92 +1,65 @@
+# ⚾ MLB Player Data Analysis (SQL + Power BI)
 
-⚾ MLB Player Analytics Project
+## 📖 Project Overview
+This project explores **decades of MLB player data** using **SQL (MySQL)** and **Power BI**.  
+The analysis focuses on:
+- Schools that produced MLB players  
+- Team salary spending over the years  
+- Player career trajectories  
+- Player attribute comparisons (height, weight, batting hand, etc.)  
 
-📌 Project Overview
+The goal is to showcase **SQL querying, analytical thinking, and dashboard building skills**.
 
-This project simulates a real-world scenario where I am hired as a Data Analyst Intern for Major League Baseball (MLB). The task is to analyze historical player data to uncover insights about player origins, team spending, career trajectories, and player attributes.
+---
 
-The dataset includes:
+## 🗂️ Dataset
+The dataset consists of 4 main tables:
+- **players** → player demographics, debut/final game, height, weight, batting/throwing hand  
+- **salaries** → player salaries by year, team, and league  
+- **schools** → mapping between players and schools  
+- **school_details** → school name, city, state, country  
 
-Player demographics (height, weight, debut year, etc.)
-Schools attended
-Salaries
-Teams played for
-The analysis was done using MySQL for querying and Power BI for visualization.
+---
 
-🎯 Business Questions
+## ⚙️ Tools Used
+- **SQL (MySQL)** → Advanced querying & data analysis  
+- **Power BI** → Dashboard creation & visualization  
+- **GitHub** → Project documentation & portfolio  
 
-What schools do MLB players attend?
-How much do teams spend on player salaries?
-What does each player’s career look like?
-How do player attributes compare?
+---
 
-🛠️ Tools & Skills Demonstrated
+## 🔎 Analysis Overview
+The project is divided into 4 parts:
 
-SQL (MySQL):
-Data cleaning and schema creation
-Advanced queries (CTEs, subqueries, joins, window functions)
-Aggregations and ranking
+1. **School Analysis** → schools producing MLB players  
+2. **Salary Analysis** → team salary spending patterns  
+3. **Player Career Analysis** → career lengths & team transitions  
+4. **Player Comparison** → attributes like batting hand, height & weight  
 
-Power BI:
-Interactive dashboards with filters & slicers
-Visual storytelling using bar charts, line charts, and cards
-KPI comparisons across decades, teams, and players
+👉 Detailed SQL queries: [SQL README](./sql/README.md)  
+👉 Dashboard visuals: [Power BI README](./powerbi/README.md)  
+ 
+---
 
-📊 Methodology
+## 🚀 Key Skills Demonstrated
+- Advanced SQL techniques:  
+  - Window functions  
+  - CTEs  
+  - Aggregations & Joins  
+  - Ranking & Percentiles  
 
-Data Preparation:
-Loaded the dataset into MySQL.
-Cleaned missing values and standardized formats.
+- Data storytelling with **Power BI**:  
+  - Interactive visuals  
+  - Trend analysis  
+  - Comparative dashboards  
 
-SQL Analysis:
-Used GROUP BY, JOINs, and WINDOW functions to answer business questions.
-Extracted player-level and team-level summaries.
+---
 
-Visualization in Power BI:
-Built dashboards to present findings interactively.
-Designed visuals for easy comparison across teams and decades.
+## 🏆 Key Insights
+- Certain schools consistently produced the **highest number of MLB players** across decades.  
+- The **top 20% of teams** account for the majority of total salary spending.  
+- Several players had **20+ year careers**, while others lasted just a season.  
+- Average **height and weight of players has steadily increased** over decades.  
 
-📈 Key Insights
+---
 
-✅ Certain universities dominate in producing MLB players.
-✅ A few high-spending teams contribute disproportionately to total player salaries.
-✅ Players’ careers show wide variations – from short stints to decades-long contributions.
-✅ Player attributes (height & weight) have shifted over different decades, showing trends in physical evolution.
-
-🎨 Power BI Dashboard Layout (Planned)
-
-Page 1: Player Origins → Bar chart of schools by number of MLB players.
-Page 2: Team Spending → Clustered bar chart of salaries by team & year, with a KPI card for total spending.
-Page 3: Career Paths → Timeline visual showing debut–final year per player (slicer by team/decade).
-Page 4: Player Attributes → Scatter plot (Height vs Weight), segmented by decade.
-
-🔍 Additional Analytical Questions
-
-🏫 Player Background & Development
-Which regions/schools produce the highest-paid players?
-Do players from certain schools have longer careers on average?
-Has the number of schools contributing players increased or decreased over time?
-
-💰 Salaries & Team Economics
-What are the top 10 highest-paid players each decade?
-How does average salary growth compare to league revenue growth (if data available)?
-Which teams provide the best ROI (performance vs salary)?
-
-🧑‍🤝‍🧑 Career Analysis
-What’s the average career length for MLB players?
-Which players switched the most teams during their career?
-How many players had one-season careers vs. 10+ years?
-
-📏 Player Attributes & Evolution
-How has the average height/weight of MLB players changed over the decades?
-Do heavier players earn higher salaries or have shorter/longer careers?
-Are there noticeable differences in player attributes by position (if position data exists)?
-
-🏆 Performance & Recognition (if stats available)
-Which players achieved the most awards/MVP titles?
-What is the correlation between salary and performance metrics (batting avg, home runs, etc.)?
-
-📊 Fun/Exploratory Insights
-Oldest vs youngest players to debut in MLB.
-Players who had the longest gaps between debut and retirement.
-The distribution of player debut ages across decades.
