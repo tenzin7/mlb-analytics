@@ -1,14 +1,9 @@
-# ⚾ MLB Player Data Analysis (SQL + Power BI)
+# ⚾ MLB Historical Player Data Analysis (SQL Project)
 
 ## 📖 Project Overview
-This project explores **decades of MLB player data** using **SQL (MySQL)** and **Power BI**.  
-The analysis focuses on:
-- Schools that produced MLB players  
-- Team salary spending over the years  
-- Player career trajectories  
-- Player attribute comparisons (height, weight, batting hand, etc.)  
-
-The goal is to showcase **SQL querying, analytical thinking, and dashboard building skills**.
+This project explores **Major League Baseball (MLB)** historical player data using **MySQL**.  
+The dataset contains player demographics, salaries, schools, and career details.  
+The focus is on applying **SQL querying skills**—including joins, window functions, CTEs, and aggregations—to answer real-world business questions.
 
 ---
 
@@ -22,9 +17,8 @@ The dataset consists of 4 main tables:
 ---
 
 ## ⚙️ Tools Used
-- **SQL (MySQL)** → Advanced querying & data analysis  
-- **Power BI** → Dashboard creation & visualization  
-- **GitHub** → Project documentation & portfolio  
+- **SQL (MySQL)** → Advanced querying & data analysis    
+- **Git & GitHub** → Project documentation & portfolio  
 
 ---
 
@@ -35,23 +29,50 @@ The project is divided into 4 parts:
 2. **Salary Analysis** → team salary spending patterns  
 3. **Player Career Analysis** → career lengths & team transitions  
 4. **Player Comparison** → attributes like batting hand, height & weight  
-
-👉 Detailed SQL queries: [SQL README](./sql/README.md)  
-👉 Dashboard visuals: [Power BI README](./powerbi/README.md)  
  
 ---
 
-## 🚀 Key Skills Demonstrated
-- Advanced SQL techniques:  
-  - Window functions  
-  - CTEs  
-  - Aggregations & Joins  
-  - Ranking & Percentiles  
+## 🛠 Skills Demonstrated
+- SQL Joins & Subqueries  
+- Common Table Expressions (CTEs)  
+- Window Functions (NTILE, RANK, ROW_NUMBER, SUM OVER, etc.)  
+- Aggregations & Grouping  
+- Data Cleaning & Transformation  
+- Analytical Thinking & Storytelling with Data  
 
-- Data storytelling with **Power BI**:  
-  - Interactive visuals  
-  - Trend analysis  
-  - Comparative dashboards  
+---
+
+## ❓ Key Business Questions Answered
+### Part I: School Analysis
+1. In each decade, how many schools produced MLB players?  
+2. Top 5 schools that produced the most players overall.  
+3. For each decade, which were the top 3 schools producing the most players?  
+
+### Part II: Salary Analysis
+1. Top 20% of teams in terms of **average annual spending**.  
+2. Cumulative salary spending for each team over the years.  
+3. First year each team’s **cumulative spend surpassed $1B**.  
+
+### Part III: Player Career Analysis
+1. Player age at debut, last game, and career length.  
+2. Starting & ending teams for each player.  
+3. Players who started and ended with the **same team** and played over a decade.  
+
+### Part IV: Player Comparison
+1. Which players share the same birthday?  
+2. Batting hand distribution (R/L/Both) per team.  
+3. How average height & weight at debut have changed across decades.  
+
+## 📊 Example Insights
+- The **1990s** saw the highest number of schools producing MLB players.  
+- The **New York Yankees** consistently rank among the top 20% of highest spenders.  
+- Some players enjoyed **20+ year careers**, debuting in their early 20s and retiring in their 40s.  
+- Average player weight has increased **decade over decade**, reflecting changes in athletic training.  
+
+## 📂 Repository Structure
+- `/sql` → All SQL scripts grouped by theme.  
+- `/outputs` → Query results (CSV, sample tables).  
+- `/data` → Raw dataset (CSV format).  
 
 ---
 
