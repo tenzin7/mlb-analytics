@@ -72,10 +72,5 @@ The project is divided into 4 parts:
 - `/sql` → All SQL scripts grouped by theme.  
 - `/outputs` → Query results (CSV, sample tables).  
 - `/data` → Raw dataset (CSV format).  
-
-
-## 🏆 Key Insights
-- Certain schools consistently produced the **highest number of MLB players** across decades.  
-- The **top 20% of teams** account for the majority of total salary spending.  
-- Several players had **20+ year careers**, while others lasted just a season.  
+ 
 
